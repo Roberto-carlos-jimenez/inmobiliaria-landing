@@ -18,7 +18,7 @@ function Testimonials() {
     ];
 
     return (
-        <section className="testimonials">
+        <section className="testimonials" data-aos="fade-up">
 
             <div className="section-header">
                 <span>TESTIMONIOS</span>

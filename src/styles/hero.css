@@ -80,6 +80,33 @@
     color: #ffffff;
     border: 1px solid #d4af37;
 }
+.hero-stats {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.hero-stats div {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-stats strong {
+    color: #d4af37;
+    font-size: 1.8rem;
+}
+
+.hero-stats span {
+    color: #cbd5e1;
+    font-size: 0.9rem;
+}
+
+@media(max-width: 768px) {
+    .hero-stats {
+        gap: 1.2rem;
+        flex-wrap: wrap;
+    }
+}
 @media (max-width: 768px) {
     .hero {
         min-height: 100vh;

@@ -19,10 +19,10 @@ function Footer() {
                 <div className="footer-links">
                     <h4>Enlaces</h4>
 
-                    <a href="#">Inicio</a>
-                    <a href="#">Propiedades</a>
-                    <a href="#">Nosotros</a>
-                    <a href="#">Contacto</a>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#propiedades">Propiedades</a>
+                    <a href="#about">Nosotros</a>
+                    <a href="#contacto">Contacto</a>
                 </div>
 
                 <div className="footer-contact">

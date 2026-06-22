@@ -4,6 +4,7 @@ import heroBuilding from "../assets/img/hero-building.png";
 function Hero() {
     return (
         <section
+        id="inicio"
             className="hero"
             style={{ backgroundImage: `url(${heroBuilding})` }}
         >
@@ -27,6 +28,22 @@ function Hero() {
                         <button className="btn-primary">Ver Propiedades</button>
                         <button className="btn-secondary">Contactar Asesor</button>
                     </div>
+                    <div className="hero-stats">
+    <div>
+        <strong>500+</strong>
+        <span>Propiedades</span>
+    </div>
+
+    <div>
+        <strong>15+</strong>
+        <span>Años</span>
+    </div>
+
+    <div>
+        <strong>120+</strong>
+        <span>Clientes</span>
+    </div>
+</div>
                 </div>
             </div>
         </section>

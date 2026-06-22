@@ -4,7 +4,7 @@ import "../styles/featuredProperties.css";
 
 function FeaturedProperties() {
     return (
-         <section className="featured-properties">
+         <section id="propiedades" className="featured-properties" data-aos="fade-up">
             <h2 className="featured-title">Propiedades Destacadas</h2>
 
              <div className="properties-grid">

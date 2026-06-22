@@ -83,7 +83,18 @@
     font-size: 1.3rem;
     cursor: pointer;
 }
+.logo {
+    text-decoration: none;
+}
 
+.nav-links a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav-btn {
+    text-decoration: none;
+}
 
 @media (max-width: 768px) {
     .navbar {

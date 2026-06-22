@@ -13,10 +13,10 @@ function Navbar() {
             </div>
 
             <ul className="nav-links">
-                <li>Inicio</li>
-                <li>Propiedades</li>
-                <li>Nosotros</li>
-                <li>Contacto</li>
+                 <li><a href="#">Inicio</a></li>
+                <li><a href="#propiedades">Propiedades</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
 
             <button className="nav-btn">
